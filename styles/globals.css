@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
@@ -24,4 +24,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.feedSection {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.feedSection::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
